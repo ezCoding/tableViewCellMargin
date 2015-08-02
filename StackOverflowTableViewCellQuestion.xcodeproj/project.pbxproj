@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814DDD191B6E0B2F005AAD89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814DDD181B6E0B2F005AAD89 /* AppDelegate.swift */; };
+		814DDD1B1B6E0B2F005AAD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814DDD1A1B6E0B2F005AAD89 /* ViewController.swift */; };
+		814DDD1E1B6E0B2F005AAD89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814DDD1C1B6E0B2F005AAD89 /* Main.storyboard */; };
+		814DDD201B6E0B2F005AAD89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814DDD1F1B6E0B2F005AAD89 /* Images.xcassets */; };
+		814DDD231B6E0B2F005AAD89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814DDD211B6E0B2F005AAD89 /* LaunchScreen.xib */; };
+		814DDD2F1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814DDD2E1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		814DDD291B6E0B30005AAD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814DDD0B1B6E0B2F005AAD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814DDD121B6E0B2F005AAD89;
+			remoteInfo = StackOverflowTableViewCellQuestion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		814DDD131B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowTableViewCellQuestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814DDD171B6E0B2F005AAD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814DDD181B6E0B2F005AAD89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		814DDD1A1B6E0B2F005AAD89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		814DDD1D1B6E0B2F005AAD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		814DDD1F1B6E0B2F005AAD89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		814DDD221B6E0B2F005AAD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		814DDD281B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowTableViewCellQuestionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		814DDD2D1B6E0B30005AAD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814DDD2E1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowTableViewCellQuestionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814DDD101B6E0B2F005AAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814DDD251B6E0B30005AAD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814DDD0A1B6E0B2F005AAD89 = {
+			isa = PBXGroup;
+			children = (
+				814DDD151B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion */,
+				814DDD2B1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests */,
+				814DDD141B6E0B2F005AAD89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814DDD141B6E0B2F005AAD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814DDD131B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion.app */,
+				814DDD281B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814DDD151B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				814DDD181B6E0B2F005AAD89 /* AppDelegate.swift */,
+				814DDD1A1B6E0B2F005AAD89 /* ViewController.swift */,
+				814DDD1C1B6E0B2F005AAD89 /* Main.storyboard */,
+				814DDD1F1B6E0B2F005AAD89 /* Images.xcassets */,
+				814DDD211B6E0B2F005AAD89 /* LaunchScreen.xib */,
+				814DDD161B6E0B2F005AAD89 /* Supporting Files */,
+			);
+			path = StackOverflowTableViewCellQuestion;
+			sourceTree = "<group>";
+		};
+		814DDD161B6E0B2F005AAD89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				814DDD171B6E0B2F005AAD89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		814DDD2B1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests */ = {
+			isa = PBXGroup;
+			children = (
+				814DDD2E1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.swift */,
+				814DDD2C1B6E0B30005AAD89 /* Supporting Files */,
+			);
+			path = StackOverflowTableViewCellQuestionTests;
+			sourceTree = "<group>";
+		};
+		814DDD2C1B6E0B30005AAD89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				814DDD2D1B6E0B30005AAD89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814DDD121B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814DDD321B6E0B30005AAD89 /* Build configuration list for PBXNativeTarget "StackOverflowTableViewCellQuestion" */;
+			buildPhases = (
+				814DDD0F1B6E0B2F005AAD89 /* Sources */,
+				814DDD101B6E0B2F005AAD89 /* Frameworks */,
+				814DDD111B6E0B2F005AAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackOverflowTableViewCellQuestion;
+			productName = StackOverflowTableViewCellQuestion;
+			productReference = 814DDD131B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		814DDD271B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814DDD351B6E0B30005AAD89 /* Build configuration list for PBXNativeTarget "StackOverflowTableViewCellQuestionTests" */;
+			buildPhases = (
+				814DDD241B6E0B30005AAD89 /* Sources */,
+				814DDD251B6E0B30005AAD89 /* Frameworks */,
+				814DDD261B6E0B30005AAD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814DDD2A1B6E0B30005AAD89 /* PBXTargetDependency */,
+			);
+			name = StackOverflowTableViewCellQuestionTests;
+			productName = StackOverflowTableViewCellQuestionTests;
+			productReference = 814DDD281B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814DDD0B1B6E0B2F005AAD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EZCoding;
+				TargetAttributes = {
+					814DDD121B6E0B2F005AAD89 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					814DDD271B6E0B30005AAD89 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 814DDD121B6E0B2F005AAD89;
+					};
+				};
+			};
+			buildConfigurationList = 814DDD0E1B6E0B2F005AAD89 /* Build configuration list for PBXProject "StackOverflowTableViewCellQuestion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 814DDD0A1B6E0B2F005AAD89;
+			productRefGroup = 814DDD141B6E0B2F005AAD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814DDD121B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion */,
+				814DDD271B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814DDD111B6E0B2F005AAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DDD1E1B6E0B2F005AAD89 /* Main.storyboard in Resources */,
+				814DDD231B6E0B2F005AAD89 /* LaunchScreen.xib in Resources */,
+				814DDD201B6E0B2F005AAD89 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814DDD261B6E0B30005AAD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814DDD0F1B6E0B2F005AAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DDD1B1B6E0B2F005AAD89 /* ViewController.swift in Sources */,
+				814DDD191B6E0B2F005AAD89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814DDD241B6E0B30005AAD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DDD2F1B6E0B30005AAD89 /* StackOverflowTableViewCellQuestionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		814DDD2A1B6E0B30005AAD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814DDD121B6E0B2F005AAD89 /* StackOverflowTableViewCellQuestion */;
+			targetProxy = 814DDD291B6E0B30005AAD89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		814DDD1C1B6E0B2F005AAD89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DDD1D1B6E0B2F005AAD89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		814DDD211B6E0B2F005AAD89 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DDD221B6E0B2F005AAD89 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		814DDD301B6E0B30005AAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814DDD311B6E0B30005AAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814DDD331B6E0B30005AAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackOverflowTableViewCellQuestion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		814DDD341B6E0B30005AAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackOverflowTableViewCellQuestion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		814DDD361B6E0B30005AAD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StackOverflowTableViewCellQuestionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackOverflowTableViewCellQuestion.app/StackOverflowTableViewCellQuestion";
+			};
+			name = Debug;
+		};
+		814DDD371B6E0B30005AAD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StackOverflowTableViewCellQuestionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackOverflowTableViewCellQuestion.app/StackOverflowTableViewCellQuestion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814DDD0E1B6E0B2F005AAD89 /* Build configuration list for PBXProject "StackOverflowTableViewCellQuestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DDD301B6E0B30005AAD89 /* Debug */,
+				814DDD311B6E0B30005AAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814DDD321B6E0B30005AAD89 /* Build configuration list for PBXNativeTarget "StackOverflowTableViewCellQuestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DDD331B6E0B30005AAD89 /* Debug */,
+				814DDD341B6E0B30005AAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		814DDD351B6E0B30005AAD89 /* Build configuration list for PBXNativeTarget "StackOverflowTableViewCellQuestionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DDD361B6E0B30005AAD89 /* Debug */,
+				814DDD371B6E0B30005AAD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814DDD0B1B6E0B2F005AAD89 /* Project object */;
+}
